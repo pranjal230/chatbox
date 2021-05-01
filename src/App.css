@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  background-color: black;
+}
+
+
+.App>form{
+
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  background-color:rgb(216, 214, 214);
+  
+  width: 95%;
+
+  
+  margin: 10px;
+}
+
+h1{
+  color: white;
+}
+
+h3{
+  color: white;
+}
+
+.app_formcontrol{
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+.input_placeholder{
+  color:black;
+}
+
+.app_IconButton{
+  flex: 0;
+}
+
+.app_input{
+  flex: 1;
+}
